@@ -3,12 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="0dceb438-583b-4254-9d9f-396d50d94041" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/front/assets/styles/app.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/components/infiniteScroll.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/front/components/post.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/front/components/postList.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/front/plugins/scrollDirective.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/front/store/index.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/front/store/posts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -85,11 +85,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/front/components/postList.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+            <state relative-caret-position="544">
+              <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+              <folding>
+                <element signature="e#223#249#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/front/components/infiniteScroll.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="578">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
             </state>
           </provider>
         </entry>
@@ -144,8 +156,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Vue Single File Component" />
         <option value="JavaScript File" />
+        <option value="Vue Single File Component" />
       </list>
     </option>
   </component>
@@ -178,6 +190,7 @@
         <option value="$PROJECT_DIR$/front/plugins/scrollDirective.js" />
         <option value="$PROJECT_DIR$/front/components/post.vue" />
         <option value="$PROJECT_DIR$/front/components/postList.vue" />
+        <option value="$PROJECT_DIR$/front/components/infiniteScroll.vue" />
       </list>
     </option>
   </component>
@@ -358,12 +371,12 @@
       <option name="presentableId" value="Default" />
       <updated>1553066436035</updated>
       <workItem from="1553066440628" duration="7496000" />
-      <workItem from="1553155756682" duration="9990000" />
+      <workItem from="1553155756682" duration="11210000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17486000" />
+    <option name="totallyTimeSpent" value="18706000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -574,8 +587,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/front/components/postList.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+        <state relative-caret-position="544">
+          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+          <folding>
+            <element signature="e#223#249#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/components/infiniteScroll.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>
