@@ -13,10 +13,10 @@
       </div>
       <div class="card-content">
         <div class="content">
-          {{post.content}}
+          <p>{{post.content}}</p>
           <a href="#">#css</a> <a href="#">#responsive</a>
           <br>
-          <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+          <time datetime="2016-1-1">{{post.created_at}}</time>
         </div>
       </div>
     </div>
@@ -29,8 +29,7 @@
     props: ['post'],
   }
 </script>
+
 <style lang="scss" scoped>
-  .card {
-    background-color: #ffe817;
-  } //my own comment
+
 </style>
