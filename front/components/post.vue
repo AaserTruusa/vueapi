@@ -32,5 +32,5 @@
 <style lang="scss" scoped>
   .card {
     background-color: #ffe817;
-  }
+  } //my own comment
 </style>
