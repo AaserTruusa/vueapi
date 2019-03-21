@@ -7,6 +7,9 @@ export default {
   ** Headers of the page
   */
   head: {
+    htmlAttrs:{
+      class: 'has-navbar-fixed-top',
+    },
     title: pkg.name,
     meta: [
       { charset: 'utf-8' },
@@ -28,7 +31,7 @@ export default {
   ** Global CSS
   */
   css: [
-      'bulma'
+      '@/assets/styles/app.scss',
   ],
 
   /*
@@ -44,7 +47,12 @@ export default {
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
     '@nuxtjs/pwa',
+    '@nuxtjs/style-resources',
   ],
+  styleResources: {
+    // your settings here
+    sass: ['@/assets/styles/app.scss'],
+  },
   /*
   ** Axios module configuration
   */

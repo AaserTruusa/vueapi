@@ -1,6 +1,9 @@
 <template>
-    <div>
-      <post-list></post-list>
+    <div class="columns is-centered">
+        <div class="column is-5">
+            <post-list></post-list>
+
+        </div>
     </div>
 </template>
 
